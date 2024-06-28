@@ -1,0 +1,137 @@
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.font-bold{
+    font-weight: bolder;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.px-2{
+    padding-left: 0px;
+    padding-right: 13px;
+}
+
+.textleft{
+    text-align: left;
+}
+
+.btn{
+    padding: 4px 12px;
+    color: black;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.btn1{
+    color: white;
+    background-color: rgb(73, 73, 224);
+    padding:4px 12px;
+    border-radius: 12px;
+    border: 0;
+    cursor: pointer;
+}
+
+.pic{
+
+        margin-left: 50px; /* Adjust space between text and logo */
+        width: 300px; /* Adjust size as needed */
+        height: auto; /* Maintain aspect ratio */
+        clip-path: circle(50%);
+
+}
+
+
+.pic2{
+
+    margin-left: 300px; /* Adjust space between text and logo */
+    width: 300px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    clip-path: circle(50%);
+
+}
+
+.mainheading {
+    font-size: 80px; /* Adjust the size as needed */
+    font-weight: bold;
+    color: #070707; /* Optional: Set the text color */
+    text-align: left; /* Optional: Center the text */
+    margin: 20px 0; /* Optional: Add some margin */
+}
+
+.text{
+    text-align: left;
+    margin:20px 0 ;
+    font-size: medium;
+}
+
+.texcenter{
+    text-align: center;
+}
+
+.textyellow{
+    color: chocolate;
+    margin-top: 20px;
+}
+
+.subheading {
+    font-size: 40px; /* Adjust the size as needed */
+    font-weight: bold;
+    color: #070707; /* Optional: Set the text color */
+    text-align: center; /* Optional: Center the text */
+    margin: 15px 0; /* Optional: Add some margin */
+}
+
+.boxheading{
+    font-size: medium;
+    font-weight: bolder;
+    color: black;
+    text-align: left;
+}
+
+.boxtext{
+    font-size: small;
+    font-weight: 300;
+    color: black;
+    text-align: left;
+}
+
+.boxtitle{
+       margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        color: black;
+        text-align: center;
+    
+}

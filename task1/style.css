@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80vw;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.login{
+    display: flex;
+    height: 67px;
+    font-family: "Poppins", sans-serif;
+}
+
+.login li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+ width: 50%;
+}
+
+.topright{
+width: 50%;
+}
+
+.section1{
+    height: 75vh;
+}
+
+.logo{
+    margin-left: 8px; /* Adjust space between text and logo */
+    width: 20px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.section2{
+    height: 45vh;
+}
+
+.section2{
+    height: 60vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between boxes */
+    padding: 20px;
+}
+
+.box {
+    width: calc(15% - 20px); /* Adjust width based on container */
+    min-width: 200px; /* Minimum width to keep boxes readable */
+    height: 100px; /* Height of each box */
+    background-color: #fffcfc; /* Background color */
+    border: 1px solid #494646; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.boxlogo{
+    margin-bottom: auto; /* Adjust space between text and logo */
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Maintain aspect ratio */
+}
+
+.boxes-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between boxes */
+    padding: 20px;
+}
+
+.box2 {
+    width: auto; /* Adjust width based on container */
+    min-width: 200px; /* Minimum width to keep boxes readable */
+    height: 50px; /* Height of each box */
+    background-color: #fffcfc; /* Background color */
+    border: 1px solid #494646; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+
+.boxlogo2{
+    margin-right: 10px; /* Adjust space between text and logo */
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Maintain aspect ratio */
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color:  rgb(73, 73, 224);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    height: 70px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-stat {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+}
+
+.stat-number {
+    font-size: 2em;
+    margin: 0;
+}
+
+.stat-label {
+    font-size: 1em;
+    margin: 5px 0 0;
+}
